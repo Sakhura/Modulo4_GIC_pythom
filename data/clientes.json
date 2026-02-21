@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "tipo": "ClienteRegular",
+        "nombre": "Ana García",
+        "email": "ana@test.com",
+        "telefono": "+56911111111",
+        "direccion": "Av. Libertad 100",
+        "fecha_registro": "2026-02-21 19:24:37",
+        "activo": 1,
+        "datos_extra": "{\"puntos\": 0}"
+    },
+    {
+        "id": 2,
+        "tipo": "ClientePremium",
+        "nombre": "Carlos Rojas",
+        "email": "carlos@test.com",
+        "telefono": "+56922222222",
+        "direccion": "Calle 5 #200",
+        "fecha_registro": "2026-02-21 19:24:37",
+        "activo": 1,
+        "datos_extra": "{\"nivel_premium\": 2, \"nombre_nivel\": \"Oro\", \"beneficios\": []}"
+    },
+    {
+        "id": 3,
+        "tipo": "ClienteCorporativo",
+        "nombre": "Juan Pérez",
+        "email": "juan@corp.com",
+        "telefono": "+56933333333",
+        "direccion": "Parque Industrial 55",
+        "fecha_registro": "2026-02-21 19:24:37",
+        "activo": 1,
+        "datos_extra": "{\"empresa\": \"TechCorp SA\", \"rut_empresa\": \"12345678-9\", \"limite_credito\": 1000000, \"contactos\": []}"
+    }
+]
